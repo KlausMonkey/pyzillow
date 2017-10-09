@@ -212,6 +212,14 @@ class GetUpdatedPropertyDetails(ZillowResults):
         'neighborhood': 'neighborhood',
         'school_district': 'schoolDistrict',
         'home_description': 'homeDescription',
+        'status': 'posting/status',
+        'page_view_current': 'pageViewCount/currentMonth',
+        'page_view_total': 'pageViewCount/total',
+        'list_price': 'price',
+        'last_updated': 'posting/lastUpdatedDate',
+        'external_url': 'posting/externalUrl',
+        'mls_num': 'posting/mls',
+        'image_count': 'images/count'
     }
 
     def __init__(self, data, *args, **kwargs):
